@@ -20,7 +20,7 @@ Plus, because it’s open-source, it’s highly customizable to fit the unique n
    * We created an administrator user with the <code>username</code>: "admin" and the <code>password</code>: "Gilandlidor123!"
    * Under <code>Site administration->Users->Accounts->Add a new user</code>, we created new user with the <code>username</code>: "student" and the <code>password</code>: "Student123!"
    * Under <code>Site administration->Courses->Courses->Add a new course</code>, we created new course with <code>course full name</code>: "QA_course" and <code>course short name</code>: "QA_course"
-   * On course page, after turn on the <code>Edit mode</code>, we added a section "Assignment_1". On this section we added new assignment by <code>Add content->Activity or resource->Assignment</code> with the name "assignment1" and Due date of 30.1.2050 12:00 AM.
+   * On course page, after turn on the <code>Edit mode</code>, we added a section "Assignment_1". On this section we added new assignment by <code>Add content->Activity or resource->Assignment</code> with the name "assignment1" ,Due date of 30.1.2050 12:00 AM, and a limit of 2 files in submission.
 2. Chrome Driver
    * We download it from [here](https://googlechromelabs.github.io/chrome-for-testing/)
    * We Chose the 132 Stable-Version
