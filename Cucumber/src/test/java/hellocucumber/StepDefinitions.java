@@ -124,7 +124,6 @@ public class StepDefinitions {
     //login to the student user with the supplied username and password
     @Given("A logged in student with " + student_username + " and " + student_password)
     public void studentLogin() throws InterruptedException {
-        assertEquals(1,2);
         driver = new ChromeDriver();
         driver.get(LocalMoodleURL);
         Thread.sleep(3500);
