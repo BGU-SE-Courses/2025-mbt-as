@@ -26,6 +26,8 @@ Plus, because it’s open-source, it’s highly customizable to fit the unique n
    * We Chose the 132 Stable-Version
 3. Graphiz
    * We download it from  [Graphviz](http://graphviz.org)
+4. For running task5 you have the .\Cucumber\config.properties for set the local Moodle url on your device, and path for another browser driver. Yo can change it if the default values doesn't match your runtime enviroment.
+Note: there is screen recording also for task 5 in Cucumber directory. 
 
 ## What we tested
 We chose to focus on examining a situation where a student submits 2 documents for an assignment, and subsequently, the course instructor limits the number of submittable documents to one. We selected this scenario based on the user stories we received.
@@ -58,6 +60,7 @@ Each of the testing methods is elaborated in its own directory.
 
 ## Results
 * Cucumber Results:
+    We ran a script that checks the use-cases from both teacher and student sides. The tests ran well and returned results as expected.
    
 
 * Provengo Results:
